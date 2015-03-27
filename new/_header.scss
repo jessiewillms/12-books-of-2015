@@ -1,0 +1,67 @@
+body {
+	font-family: "Montserrat";
+	font-weight: 400;
+	/*@include greyscale;*/
+}
+.wrapper {
+	opacity: 0;
+}
+.top-wrap {
+	@include bkggradient;
+	padding: 5%;
+}
+.bottom-wrap {
+	padding: 5%;
+}
+h3 {
+	display: block;
+	clear: both;
+}
+
+nav {
+	padding: 3% 0;
+	ul {
+		padding-left: 70%;
+		li {
+			list-style-type: none;
+			  display: inline-block;
+			  margin: 0 5%;
+			  height: 30px;
+			  color: $white;
+			  cursor: pointer;
+		}
+	}
+}
+
+header {
+	padding: 7.5% 35% 7.5% 0;
+	
+	h1 {
+		font-size: 5.5em;
+		color: $white;
+	}
+	h2 {
+		color: $white;
+		padding-bottom: 5%;
+		&:before {
+			@include borderlength;
+		}
+		&:after {
+			background-image: url(svg/book.svg);
+			content: "";
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			margin: 0 0 -10px 10px;
+		}
+
+	}
+	h2 + p {
+		color: $white;
+		padding-bottom: 5%;
+		padding-right: 35%;
+		&:before {
+			@include borderlength;
+		}
+	}
+}

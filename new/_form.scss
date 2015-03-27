@@ -1,0 +1,16 @@
+form {
+	/*margin: 3% 0;*/
+	padding: 10% 5% 5% 5%;
+	
+	select {
+		margin: 3% 0;
+	}
+	/*p {
+		margin: 3% 0;
+	}*/
+}
+
+button {
+	@include theborder;
+	
+}

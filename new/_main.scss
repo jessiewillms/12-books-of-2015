@@ -1,0 +1,62 @@
+$blue: #267871;
+$white: #fff;
+$border-bb: 3px solid $white;
+$border-tr: 3px solid transparent;
+$transition: 0.5s all ease-in-out;
+
+@mixin bkggradient {
+  width: 100%;
+  /*height: 2000px;*/
+  background: url(img/book-bkg.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  z-index: 0;
+
+  &:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	/*background: linear-gradient(90deg, rgba(19, 106, 138, .5) 10%, $blue 90%);*/
+	opacity: .6; 
+	/*height: 2000px;*/
+  }
+}
+@mixin greyscale {
+	-webkit-filter: grayscale(.65);
+	filter: grayscale(.65);
+}
+@mixin borderlength {
+	content: "";
+	display: block;
+	width: 75px;
+	height: 3px;
+	margin: 3% 0;
+	background: white
+}
+
+@mixin backgroundImg {
+	background: url(img/book-bkg.jpg) no-repeat center center fixed; 
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+}
+
+@mixin centered {
+	display: block;
+	margin: 0 auto;
+}
+
+@mixin theborder {
+	border: 3px solid $blue;
+	padding: 10px;
+	margin: 10px;
+	background: white;
+	color: $blue;
+	&:hover {
+		background: #eee;
+		transition: $transition;
+	}
+}

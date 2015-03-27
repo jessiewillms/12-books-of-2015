@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top-wrap">
+            <nav></nav>
+            <header></header>
+        </div>
+        <div class="total"></div>
+        <form action="form">
+            <p>filter what i read: </p>
+            <select name="gender" id="gender-select">
+                <option value="all">All genders</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+            <select name="genre" id="genre-select">
+                <option value="all">All genres</option>
+                <option value="fiction">fiction</option>
+                <option value="YA">young adult</option>
+                <option value="humour">humour</option>
+                <option value="bio">bio</option>
+            </select>
+            <select name="review" id="review-select">
+                <option value="all">All reviews</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+            </select>
+            <select name="month" id="month-select">
+                <option value="all">All months</option>
+                <option value="january">january</option>
+                <option value="february">february</option>
+                <option value="march">march</option>
+            </select>
+
+            <button>or show all</button>
+        </form>
+        
+        <main class="content-wrap clearfix"></main>
+        <footer><p>made with <svg id="love-icon" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 100 100"><g fill="none" stroke="#fff" stroke-width="1.499" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M19.366 49.665c-1.12-1.287-2.016-2.685-2.686-4.143C15.56 43.23 15 40.658 15 37.86c0-4.98 1.79-9.233 5.317-12.76 3.523-3.523 7.775-5.258 12.756-5.258 4.982 0 9.235 1.734 12.758 5.26 1.847 1.845 3.247 3.915 4.253 6.21.896-2.295 2.296-4.365 4.142-6.21 3.526-3.525 7.774-5.26 12.757-5.26 4.98 0 9.233 1.734 12.76 5.26C83.265 28.625 85 32.878 85 37.86c0 2.798-.56 5.37-1.622 7.662-.73 1.458-1.624 2.855-2.744 4.143-10.24 10.127-20.422 20.31-30.607 30.493M50.027 80.158c-10.24-10.182-20.42-20.366-30.66-30.493"/></g></svg> and a lot of <svg id="coffee-icon" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 100 100"><g fill="none" stroke="#fff" stroke-width="1.499" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M79.4 45.41v32.566c0 3.75-1.845 5.596-5.592 5.596H38.446c-3.747 0-5.597-1.847-5.597-5.596V45.41M61.052 24.205c-3.637 4.645-3.637 9.346 0 13.987M47.285 9.826c-3.412 4.867-3.412 9.567 0 13.99M32.012 50.672c-.28-.057-.505-.057-.784 0-3.413-.057-6.324 1.118-8.73 3.522-2.405 2.406-3.58 5.317-3.58 8.73 0 3.413 1.175 6.322 3.58 8.728 2.405 2.406 5.316 3.582 8.73 3.582h.784M47.62 24.26c3.19 4.645 3.19 9.345 0 13.99M79.4 44.294H32.964M81.082 90.174H31.678"/></g></svg> by <a href="https://twitter.com/jessiewillms" target="_blank">jessie</a>.</p></footer>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js.js"></script>
+    <script src="https://spreadsheets.google.com/feeds/list/1iYljc-wiod2Bu0dSniWe7IW59PtheLUFsyIK1JJnuDA/1/public/values?alt=json-in-script&callback=getJsonFromGoogle"></script>
+
+    <script>
+    
+    </script>
+</body>
+</html>

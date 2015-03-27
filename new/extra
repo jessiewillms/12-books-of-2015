@@ -1,0 +1,50 @@
+
+<select>
+    <option value="All">All news</option>
+    <option value="one">Category 1</option>
+    <option value="two">Category 2</option>
+</select>
+
+<!-- <section class="content-wrap">
+    <section class="book-wrap" data-category="one">
+        <h3>one -- A news title</h3>
+    </section>
+    <section class="book-wrap" data-category="two">
+        x<h3>two -- A news title</h3>
+    </section>
+    <section class="book-wrap" data-category="one">
+        <h3>one -- A news title</h3>
+    </section>
+</section> -->
+	
+<div class="wrapper">
+	<nav></nav>
+	<header></header>
+	<div class="filter">
+		<span class="femalewriters">female writers</span>
+	</div>
+	<footer>made with <img class="icon" src="svg/heart.svg" alt=""> and a lot of <img class="icon" src="svg/coffee.svg"> by jessie.</footer>
+</div>
+
+
+
+
+
+//News filter function
+// function filterList(value) {
+// $(".content-wrap .book-wrap").hide();
+// if (value == "All") {
+//     $(".content-wrap").find("section").each(function(i) {
+//         $(this).show();
+//     });
+// } else {
+//     //Notice this *=" <- This means that if the data-category contains multiple options, it will find them
+//     //Ex: data-category="Cat1, Cat2"
+//     $(".content-wrap").find("section[data-category*=" + value + "]").each(function(i) {
+//         $(this).show();
+//     });
+// }
+// }
+// https://docs.google.com/spreadsheets/d/1iYljc-wiod2Bu0dSniWe7IW59PtheLUFsyIK1JJnuDA/pubhtml
+// key: ZGWOL7bd0ZwR5rdsdK1GOQ  
+// secret: FZhs3OQfaeCdMQoFz8wQamVGWCaXF5GPxHyzjBpZQTw

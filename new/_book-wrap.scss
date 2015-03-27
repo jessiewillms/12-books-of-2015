@@ -1,0 +1,56 @@
+.content-wrap {
+    margin: 1.5em 0;
+    padding: 0 5%;
+    font-size: .85em;
+    -webkit-column-count: 4; /* content-wrap container */
+    column-count: 4;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    column-gap: 1em;
+
+    h2 {
+    	padding-bottom: 5%;
+    	@include theborder;
+    	width: 100%;
+    }
+}
+
+.book-wrap {
+    display: inline-block;
+    margin: 0 0 1.5em;
+    padding: 1em;
+    width: 100%; /*content-wrap bricks or child elements */
+   	border: 3px solid $blue;
+   	background: #fefefe;
+}
+
+.book-words {
+    h3 {
+        padding: 10px 0;
+        border-bottom: 2px solid $blue;
+        font-size: 2.35em;
+    }
+    p {
+    	padding: 2.5% 0;
+    	line-height: 1.5;
+    }
+    p:first-of-type {
+        border-bottom: 2px solid $blue;
+    }
+    button {
+    	@include theborder;
+    	display: block;
+    	margin: 0 auto;
+    }
+    .sm {
+    	font-size: .65em;
+    	text-transform: uppercase;
+    	letter-spacing: 5px;
+    	color: #555;
+    	display: block;
+    	margin-top: 5px;
+    }
+    p.summary.more {
+		display: none;
+    }
+}

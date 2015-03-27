@@ -1,0 +1,24 @@
+footer {
+	background: $blue;
+	width: 100%;
+	padding: 5%;
+	p {
+		color: $white;
+	}
+	a {
+		color: $white;
+		margin-bottom: 5px;
+		text-decoration: none;
+		border-bottom: 2px solid $white;
+	}
+}
+img.icon {
+	max-height: 30px;
+}
+
+#love-icon {
+	margin: -13px 0;
+}
+#coffee-icon {
+	margin: -7px 0;
+}
